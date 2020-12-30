@@ -1,0 +1,5952 @@
+----------------------------------------------- 2020-12-30 14:50:05.227763
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-1-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=1
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 1-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.227813
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-1-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=1
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 1-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.227834
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-1-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=1
+To: userB <sip:userB@127.0.0.1:5061>;tag=1
+Call-ID: 1-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.228229
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-1-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=1
+To: userB <sip:userB@127.0.0.1:5061>;tag=1
+Call-ID: 1-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.323447
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-2-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=2
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 2-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.324404
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-2-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=2
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 2-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.324426
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-2-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=2
+To: userB <sip:userB@127.0.0.1:5061>;tag=2
+Call-ID: 2-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.324449
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-2-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=2
+To: userB <sip:userB@127.0.0.1:5061>;tag=2
+Call-ID: 2-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.423953
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-3-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=3
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 3-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.426997
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-3-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=3
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 3-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.427279
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-3-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=3
+To: userB <sip:userB@127.0.0.1:5061>;tag=3
+Call-ID: 3-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.427307
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-3-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=3
+To: userB <sip:userB@127.0.0.1:5061>;tag=3
+Call-ID: 3-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.522539
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-4-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=4
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 4-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.523513
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-4-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=4
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 4-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.523827
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-4-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=4
+To: userB <sip:userB@127.0.0.1:5061>;tag=4
+Call-ID: 4-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.523855
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-4-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=4
+To: userB <sip:userB@127.0.0.1:5061>;tag=4
+Call-ID: 4-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.622984
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-5-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=5
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 5-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.623703
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-5-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=5
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 5-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.624028
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-5-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=5
+To: userB <sip:userB@127.0.0.1:5061>;tag=5
+Call-ID: 5-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.624056
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-5-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=5
+To: userB <sip:userB@127.0.0.1:5061>;tag=5
+Call-ID: 5-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.723174
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-6-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=6
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 6-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.723878
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-6-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=6
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 6-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.724196
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-6-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=6
+To: userB <sip:userB@127.0.0.1:5061>;tag=6
+Call-ID: 6-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.724222
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-6-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=6
+To: userB <sip:userB@127.0.0.1:5061>;tag=6
+Call-ID: 6-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.823612
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-7-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=7
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 7-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.824317
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-7-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=7
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 7-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.824645
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-7-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=7
+To: userB <sip:userB@127.0.0.1:5061>;tag=7
+Call-ID: 7-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.824680
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-7-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=7
+To: userB <sip:userB@127.0.0.1:5061>;tag=7
+Call-ID: 7-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.923301
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-8-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=8
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 8-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:05.924009
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-8-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=8
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 8-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.924325
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-8-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=8
+To: userB <sip:userB@127.0.0.1:5061>;tag=8
+Call-ID: 8-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:05.924352
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-8-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=8
+To: userB <sip:userB@127.0.0.1:5061>;tag=8
+Call-ID: 8-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.024347
+UDP message sent (490 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-9-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=9
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 9-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.025036
+UDP message received [298] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-9-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=9
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 9-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.025358
+UDP message received [279] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-9-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=9
+To: userB <sip:userB@127.0.0.1:5061>;tag=9
+Call-ID: 9-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.025386
+UDP message sent (326 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-9-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=9
+To: userB <sip:userB@127.0.0.1:5061>;tag=9
+Call-ID: 9-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.123088
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-10-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=10
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 10-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.123801
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-10-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=10
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 10-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.124101
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-10-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=10
+To: userB <sip:userB@127.0.0.1:5061>;tag=10
+Call-ID: 10-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.124128
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-10-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=10
+To: userB <sip:userB@127.0.0.1:5061>;tag=10
+Call-ID: 10-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.223619
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-11-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=11
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 11-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.224508
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-11-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=11
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 11-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.224805
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-11-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=11
+To: userB <sip:userB@127.0.0.1:5061>;tag=11
+Call-ID: 11-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.224833
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-11-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=11
+To: userB <sip:userB@127.0.0.1:5061>;tag=11
+Call-ID: 11-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.322529
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-12-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=12
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 12-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.323513
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-12-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=12
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 12-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.323897
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-12-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=12
+To: userB <sip:userB@127.0.0.1:5061>;tag=12
+Call-ID: 12-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.323932
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-12-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=12
+To: userB <sip:userB@127.0.0.1:5061>;tag=12
+Call-ID: 12-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.424058
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-13-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=13
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 13-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.424729
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-13-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=13
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 13-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.425043
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-13-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=13
+To: userB <sip:userB@127.0.0.1:5061>;tag=13
+Call-ID: 13-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.425070
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-13-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=13
+To: userB <sip:userB@127.0.0.1:5061>;tag=13
+Call-ID: 13-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.522538
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-14-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=14
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 14-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.523268
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-14-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=14
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 14-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.523597
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-14-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=14
+To: userB <sip:userB@127.0.0.1:5061>;tag=14
+Call-ID: 14-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.523624
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-14-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=14
+To: userB <sip:userB@127.0.0.1:5061>;tag=14
+Call-ID: 14-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.623879
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-15-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=15
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 15-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.624597
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-15-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=15
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 15-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.624908
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-15-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=15
+To: userB <sip:userB@127.0.0.1:5061>;tag=15
+Call-ID: 15-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.624935
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-15-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=15
+To: userB <sip:userB@127.0.0.1:5061>;tag=15
+Call-ID: 15-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.723262
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-16-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=16
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 16-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.723952
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-16-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=16
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 16-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.724267
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-16-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=16
+To: userB <sip:userB@127.0.0.1:5061>;tag=16
+Call-ID: 16-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.724299
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-16-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=16
+To: userB <sip:userB@127.0.0.1:5061>;tag=16
+Call-ID: 16-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.822901
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-17-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=17
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 17-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.823916
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-17-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=17
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 17-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.823937
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-17-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=17
+To: userB <sip:userB@127.0.0.1:5061>;tag=17
+Call-ID: 17-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.823962
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-17-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=17
+To: userB <sip:userB@127.0.0.1:5061>;tag=17
+Call-ID: 17-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.924067
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-18-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=18
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 18-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:06.925071
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-18-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=18
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 18-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.925092
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-18-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=18
+To: userB <sip:userB@127.0.0.1:5061>;tag=18
+Call-ID: 18-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:06.925116
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-18-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=18
+To: userB <sip:userB@127.0.0.1:5061>;tag=18
+Call-ID: 18-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.022902
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-19-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=19
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 19-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.023839
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-19-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=19
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 19-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.023861
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-19-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=19
+To: userB <sip:userB@127.0.0.1:5061>;tag=19
+Call-ID: 19-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.023884
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-19-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=19
+To: userB <sip:userB@127.0.0.1:5061>;tag=19
+Call-ID: 19-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.123669
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-20-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=20
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 20-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.124422
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-20-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=20
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 20-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.124717
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-20-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=20
+To: userB <sip:userB@127.0.0.1:5061>;tag=20
+Call-ID: 20-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.124744
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-20-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=20
+To: userB <sip:userB@127.0.0.1:5061>;tag=20
+Call-ID: 20-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.222999
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-21-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=21
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 21-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.224160
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-21-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=21
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 21-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.224183
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-21-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=21
+To: userB <sip:userB@127.0.0.1:5061>;tag=21
+Call-ID: 21-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.224208
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-21-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=21
+To: userB <sip:userB@127.0.0.1:5061>;tag=21
+Call-ID: 21-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.323820
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-22-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=22
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 22-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.324899
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-22-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=22
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 22-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.324925
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-22-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=22
+To: userB <sip:userB@127.0.0.1:5061>;tag=22
+Call-ID: 22-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.324948
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-22-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=22
+To: userB <sip:userB@127.0.0.1:5061>;tag=22
+Call-ID: 22-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.423503
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-23-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=23
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 23-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.424547
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-23-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=23
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 23-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.424574
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-23-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=23
+To: userB <sip:userB@127.0.0.1:5061>;tag=23
+Call-ID: 23-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.424602
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-23-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=23
+To: userB <sip:userB@127.0.0.1:5061>;tag=23
+Call-ID: 23-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.524100
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-24-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=24
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 24-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.524828
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-24-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=24
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 24-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.525234
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-24-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=24
+To: userB <sip:userB@127.0.0.1:5061>;tag=24
+Call-ID: 24-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.525264
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-24-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=24
+To: userB <sip:userB@127.0.0.1:5061>;tag=24
+Call-ID: 24-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.623627
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-25-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=25
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 25-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.624597
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-25-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=25
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 25-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.624629
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-25-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=25
+To: userB <sip:userB@127.0.0.1:5061>;tag=25
+Call-ID: 25-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.624652
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-25-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=25
+To: userB <sip:userB@127.0.0.1:5061>;tag=25
+Call-ID: 25-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.723269
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-26-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=26
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 26-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.724295
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-26-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=26
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 26-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.724703
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-26-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=26
+To: userB <sip:userB@127.0.0.1:5061>;tag=26
+Call-ID: 26-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.724738
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-26-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=26
+To: userB <sip:userB@127.0.0.1:5061>;tag=26
+Call-ID: 26-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.822794
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-27-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=27
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 27-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.823821
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-27-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=27
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 27-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.823845
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-27-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=27
+To: userB <sip:userB@127.0.0.1:5061>;tag=27
+Call-ID: 27-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.823877
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-27-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=27
+To: userB <sip:userB@127.0.0.1:5061>;tag=27
+Call-ID: 27-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.923754
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-28-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=28
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 28-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:07.924414
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-28-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=28
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 28-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.924787
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-28-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=28
+To: userB <sip:userB@127.0.0.1:5061>;tag=28
+Call-ID: 28-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:07.924817
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-28-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=28
+To: userB <sip:userB@127.0.0.1:5061>;tag=28
+Call-ID: 28-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.024380
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-29-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=29
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 29-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.025383
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-29-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=29
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 29-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.025407
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-29-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=29
+To: userB <sip:userB@127.0.0.1:5061>;tag=29
+Call-ID: 29-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.025431
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-29-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=29
+To: userB <sip:userB@127.0.0.1:5061>;tag=29
+Call-ID: 29-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.123901
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-30-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=30
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 30-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.124595
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-30-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=30
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 30-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.124910
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-30-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=30
+To: userB <sip:userB@127.0.0.1:5061>;tag=30
+Call-ID: 30-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.124937
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-30-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=30
+To: userB <sip:userB@127.0.0.1:5061>;tag=30
+Call-ID: 30-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.223468
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-31-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=31
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 31-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.224485
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-31-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=31
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 31-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.224505
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-31-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=31
+To: userB <sip:userB@127.0.0.1:5061>;tag=31
+Call-ID: 31-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.224529
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-31-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=31
+To: userB <sip:userB@127.0.0.1:5061>;tag=31
+Call-ID: 31-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.324016
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-32-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=32
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 32-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.324992
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-32-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=32
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 32-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.325014
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-32-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=32
+To: userB <sip:userB@127.0.0.1:5061>;tag=32
+Call-ID: 32-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.325052
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-32-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=32
+To: userB <sip:userB@127.0.0.1:5061>;tag=32
+Call-ID: 32-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.423982
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-33-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=33
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 33-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.425106
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-33-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=33
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 33-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.425128
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-33-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=33
+To: userB <sip:userB@127.0.0.1:5061>;tag=33
+Call-ID: 33-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.425151
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-33-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=33
+To: userB <sip:userB@127.0.0.1:5061>;tag=33
+Call-ID: 33-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.522560
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-34-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=34
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 34-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.523525
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-34-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=34
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 34-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.523552
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-34-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=34
+To: userB <sip:userB@127.0.0.1:5061>;tag=34
+Call-ID: 34-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.523576
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-34-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=34
+To: userB <sip:userB@127.0.0.1:5061>;tag=34
+Call-ID: 34-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.623059
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-35-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=35
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 35-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.624094
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-35-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=35
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 35-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.624117
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-35-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=35
+To: userB <sip:userB@127.0.0.1:5061>;tag=35
+Call-ID: 35-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.624142
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-35-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=35
+To: userB <sip:userB@127.0.0.1:5061>;tag=35
+Call-ID: 35-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.724069
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-36-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=36
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 36-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.725093
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-36-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=36
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 36-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.725112
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-36-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=36
+To: userB <sip:userB@127.0.0.1:5061>;tag=36
+Call-ID: 36-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.725143
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-36-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=36
+To: userB <sip:userB@127.0.0.1:5061>;tag=36
+Call-ID: 36-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.824298
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-37-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=37
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 37-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.825357
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-37-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=37
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 37-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.825378
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-37-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=37
+To: userB <sip:userB@127.0.0.1:5061>;tag=37
+Call-ID: 37-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.825401
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-37-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=37
+To: userB <sip:userB@127.0.0.1:5061>;tag=37
+Call-ID: 37-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.923534
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-38-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=38
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 38-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:08.924405
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-38-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=38
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 38-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.924755
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-38-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=38
+To: userB <sip:userB@127.0.0.1:5061>;tag=38
+Call-ID: 38-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:08.924785
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-38-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=38
+To: userB <sip:userB@127.0.0.1:5061>;tag=38
+Call-ID: 38-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.023619
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-39-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=39
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 39-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.024626
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-39-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=39
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 39-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.024935
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-39-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=39
+To: userB <sip:userB@127.0.0.1:5061>;tag=39
+Call-ID: 39-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.024964
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-39-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=39
+To: userB <sip:userB@127.0.0.1:5061>;tag=39
+Call-ID: 39-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.124116
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-40-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=40
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 40-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.124953
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-40-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=40
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 40-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.125290
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-40-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=40
+To: userB <sip:userB@127.0.0.1:5061>;tag=40
+Call-ID: 40-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.125319
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-40-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=40
+To: userB <sip:userB@127.0.0.1:5061>;tag=40
+Call-ID: 40-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.223668
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-41-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=41
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 41-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.224722
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-41-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=41
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 41-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.224745
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-41-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=41
+To: userB <sip:userB@127.0.0.1:5061>;tag=41
+Call-ID: 41-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.224769
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-41-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=41
+To: userB <sip:userB@127.0.0.1:5061>;tag=41
+Call-ID: 41-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.324022
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-42-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=42
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 42-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.325154
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-42-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=42
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 42-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.325486
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-42-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=42
+To: userB <sip:userB@127.0.0.1:5061>;tag=42
+Call-ID: 42-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.325514
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-42-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=42
+To: userB <sip:userB@127.0.0.1:5061>;tag=42
+Call-ID: 42-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.423193
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-43-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=43
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 43-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.423922
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-43-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=43
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 43-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.424252
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-43-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=43
+To: userB <sip:userB@127.0.0.1:5061>;tag=43
+Call-ID: 43-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.424279
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-43-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=43
+To: userB <sip:userB@127.0.0.1:5061>;tag=43
+Call-ID: 43-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.524081
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-44-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=44
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 44-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.524998
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-44-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=44
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 44-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.525327
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-44-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=44
+To: userB <sip:userB@127.0.0.1:5061>;tag=44
+Call-ID: 44-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.525357
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-44-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=44
+To: userB <sip:userB@127.0.0.1:5061>;tag=44
+Call-ID: 44-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.623198
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-45-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=45
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 45-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.623885
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-45-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=45
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 45-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.624210
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-45-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=45
+To: userB <sip:userB@127.0.0.1:5061>;tag=45
+Call-ID: 45-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.624237
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-45-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=45
+To: userB <sip:userB@127.0.0.1:5061>;tag=45
+Call-ID: 45-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.724269
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-46-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=46
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 46-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.725023
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-46-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=46
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 46-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.725349
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-46-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=46
+To: userB <sip:userB@127.0.0.1:5061>;tag=46
+Call-ID: 46-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.725377
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-46-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=46
+To: userB <sip:userB@127.0.0.1:5061>;tag=46
+Call-ID: 46-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.824298
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-47-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=47
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 47-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.831079
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-47-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=47
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 47-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.831436
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-47-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=47
+To: userB <sip:userB@127.0.0.1:5061>;tag=47
+Call-ID: 47-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.831472
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-47-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=47
+To: userB <sip:userB@127.0.0.1:5061>;tag=47
+Call-ID: 47-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.924844
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-48-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=48
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 48-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:09.925567
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-48-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=48
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 48-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.925918
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-48-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=48
+To: userB <sip:userB@127.0.0.1:5061>;tag=48
+Call-ID: 48-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:09.925946
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-48-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=48
+To: userB <sip:userB@127.0.0.1:5061>;tag=48
+Call-ID: 48-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.022499
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-49-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=49
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 49-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.023345
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-49-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=49
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 49-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.023678
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-49-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=49
+To: userB <sip:userB@127.0.0.1:5061>;tag=49
+Call-ID: 49-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.023708
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-49-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=49
+To: userB <sip:userB@127.0.0.1:5061>;tag=49
+Call-ID: 49-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.122998
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-50-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=50
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 50-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.124009
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-50-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=50
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 50-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.124030
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-50-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=50
+To: userB <sip:userB@127.0.0.1:5061>;tag=50
+Call-ID: 50-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.124054
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-50-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=50
+To: userB <sip:userB@127.0.0.1:5061>;tag=50
+Call-ID: 50-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.223890
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-51-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=51
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 51-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.224609
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-51-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=51
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 51-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.224935
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-51-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=51
+To: userB <sip:userB@127.0.0.1:5061>;tag=51
+Call-ID: 51-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.224963
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-51-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=51
+To: userB <sip:userB@127.0.0.1:5061>;tag=51
+Call-ID: 51-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.323690
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-52-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=52
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 52-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.324381
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-52-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=52
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 52-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.324695
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-52-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=52
+To: userB <sip:userB@127.0.0.1:5061>;tag=52
+Call-ID: 52-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.324722
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-52-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=52
+To: userB <sip:userB@127.0.0.1:5061>;tag=52
+Call-ID: 52-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.423247
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-53-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=53
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 53-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.423901
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-53-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=53
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 53-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.424215
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-53-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=53
+To: userB <sip:userB@127.0.0.1:5061>;tag=53
+Call-ID: 53-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.424242
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-53-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=53
+To: userB <sip:userB@127.0.0.1:5061>;tag=53
+Call-ID: 53-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.523297
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-54-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=54
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 54-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.523999
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-54-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=54
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 54-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.524318
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-54-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=54
+To: userB <sip:userB@127.0.0.1:5061>;tag=54
+Call-ID: 54-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.524346
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-54-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=54
+To: userB <sip:userB@127.0.0.1:5061>;tag=54
+Call-ID: 54-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.623751
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-55-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=55
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 55-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.624545
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-55-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=55
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 55-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.624888
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-55-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=55
+To: userB <sip:userB@127.0.0.1:5061>;tag=55
+Call-ID: 55-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.624917
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-55-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=55
+To: userB <sip:userB@127.0.0.1:5061>;tag=55
+Call-ID: 55-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.723025
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-56-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=56
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 56-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.723724
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-56-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=56
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 56-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.724038
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-56-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=56
+To: userB <sip:userB@127.0.0.1:5061>;tag=56
+Call-ID: 56-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.724072
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-56-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=56
+To: userB <sip:userB@127.0.0.1:5061>;tag=56
+Call-ID: 56-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.823446
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-57-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=57
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 57-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.824171
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-57-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=57
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 57-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.824499
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-57-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=57
+To: userB <sip:userB@127.0.0.1:5061>;tag=57
+Call-ID: 57-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.824526
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-57-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=57
+To: userB <sip:userB@127.0.0.1:5061>;tag=57
+Call-ID: 57-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.924104
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-58-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=58
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 58-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:10.924811
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-58-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=58
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 58-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.925117
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-58-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=58
+To: userB <sip:userB@127.0.0.1:5061>;tag=58
+Call-ID: 58-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:10.925146
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-58-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=58
+To: userB <sip:userB@127.0.0.1:5061>;tag=58
+Call-ID: 58-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.022615
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-59-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=59
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 59-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.023382
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-59-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=59
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 59-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.023705
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-59-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=59
+To: userB <sip:userB@127.0.0.1:5061>;tag=59
+Call-ID: 59-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.023733
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-59-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=59
+To: userB <sip:userB@127.0.0.1:5061>;tag=59
+Call-ID: 59-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.124126
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-60-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=60
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 60-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.124851
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-60-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=60
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 60-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.125163
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-60-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=60
+To: userB <sip:userB@127.0.0.1:5061>;tag=60
+Call-ID: 60-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.125190
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-60-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=60
+To: userB <sip:userB@127.0.0.1:5061>;tag=60
+Call-ID: 60-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.222752
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-61-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=61
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 61-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.223479
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-61-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=61
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 61-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.224011
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-61-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=61
+To: userB <sip:userB@127.0.0.1:5061>;tag=61
+Call-ID: 61-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.224037
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-61-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=61
+To: userB <sip:userB@127.0.0.1:5061>;tag=61
+Call-ID: 61-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.323397
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-62-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=62
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 62-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.326454
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-62-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=62
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 62-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.326861
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-62-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=62
+To: userB <sip:userB@127.0.0.1:5061>;tag=62
+Call-ID: 62-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.326893
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-62-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=62
+To: userB <sip:userB@127.0.0.1:5061>;tag=62
+Call-ID: 62-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.423234
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-63-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=63
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 63-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.423938
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-63-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=63
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 63-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.424236
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-63-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=63
+To: userB <sip:userB@127.0.0.1:5061>;tag=63
+Call-ID: 63-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.424263
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-63-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=63
+To: userB <sip:userB@127.0.0.1:5061>;tag=63
+Call-ID: 63-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.523536
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-64-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=64
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 64-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.524233
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-64-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=64
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 64-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.524557
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-64-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=64
+To: userB <sip:userB@127.0.0.1:5061>;tag=64
+Call-ID: 64-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.524584
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-64-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=64
+To: userB <sip:userB@127.0.0.1:5061>;tag=64
+Call-ID: 64-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.623949
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-65-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=65
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 65-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.624645
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-65-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=65
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 65-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.624965
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-65-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=65
+To: userB <sip:userB@127.0.0.1:5061>;tag=65
+Call-ID: 65-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.624992
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-65-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=65
+To: userB <sip:userB@127.0.0.1:5061>;tag=65
+Call-ID: 65-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.723550
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-66-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=66
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 66-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.724243
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-66-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=66
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 66-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.724562
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-66-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=66
+To: userB <sip:userB@127.0.0.1:5061>;tag=66
+Call-ID: 66-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.724589
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-66-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=66
+To: userB <sip:userB@127.0.0.1:5061>;tag=66
+Call-ID: 66-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.824158
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-67-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=67
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 67-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.824855
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-67-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=67
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 67-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.825161
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-67-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=67
+To: userB <sip:userB@127.0.0.1:5061>;tag=67
+Call-ID: 67-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.825195
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-67-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=67
+To: userB <sip:userB@127.0.0.1:5061>;tag=67
+Call-ID: 67-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.922667
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-68-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=68
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 68-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:11.923361
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-68-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=68
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 68-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.923678
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-68-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=68
+To: userB <sip:userB@127.0.0.1:5061>;tag=68
+Call-ID: 68-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:11.923705
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-68-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=68
+To: userB <sip:userB@127.0.0.1:5061>;tag=68
+Call-ID: 68-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.023487
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-69-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=69
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 69-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.024182
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-69-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=69
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 69-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.024508
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-69-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=69
+To: userB <sip:userB@127.0.0.1:5061>;tag=69
+Call-ID: 69-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.024535
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-69-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=69
+To: userB <sip:userB@127.0.0.1:5061>;tag=69
+Call-ID: 69-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.123276
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-70-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=70
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 70-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.124032
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-70-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=70
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 70-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.124335
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-70-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=70
+To: userB <sip:userB@127.0.0.1:5061>;tag=70
+Call-ID: 70-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.124362
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-70-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=70
+To: userB <sip:userB@127.0.0.1:5061>;tag=70
+Call-ID: 70-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.222660
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-71-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=71
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 71-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.223321
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-71-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=71
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 71-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.223648
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-71-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=71
+To: userB <sip:userB@127.0.0.1:5061>;tag=71
+Call-ID: 71-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.223675
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-71-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=71
+To: userB <sip:userB@127.0.0.1:5061>;tag=71
+Call-ID: 71-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.323937
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-72-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=72
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 72-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.324544
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-72-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=72
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 72-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.324891
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-72-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=72
+To: userB <sip:userB@127.0.0.1:5061>;tag=72
+Call-ID: 72-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.324919
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-72-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=72
+To: userB <sip:userB@127.0.0.1:5061>;tag=72
+Call-ID: 72-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.422966
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-73-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=73
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 73-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.423630
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-73-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=73
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 73-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.423960
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-73-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=73
+To: userB <sip:userB@127.0.0.1:5061>;tag=73
+Call-ID: 73-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.423986
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-73-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=73
+To: userB <sip:userB@127.0.0.1:5061>;tag=73
+Call-ID: 73-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.524112
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-74-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=74
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 74-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.524810
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-74-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=74
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 74-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.525117
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-74-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=74
+To: userB <sip:userB@127.0.0.1:5061>;tag=74
+Call-ID: 74-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.525144
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-74-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=74
+To: userB <sip:userB@127.0.0.1:5061>;tag=74
+Call-ID: 74-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.623635
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-75-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=75
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 75-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.624597
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-75-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=75
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 75-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.624617
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-75-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=75
+To: userB <sip:userB@127.0.0.1:5061>;tag=75
+Call-ID: 75-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.624640
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-75-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=75
+To: userB <sip:userB@127.0.0.1:5061>;tag=75
+Call-ID: 75-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.723293
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-76-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=76
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 76-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.723965
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-76-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=76
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 76-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.724275
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-76-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=76
+To: userB <sip:userB@127.0.0.1:5061>;tag=76
+Call-ID: 76-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.724310
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-76-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=76
+To: userB <sip:userB@127.0.0.1:5061>;tag=76
+Call-ID: 76-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.823893
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-77-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=77
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 77-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.824630
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-77-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=77
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 77-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.824946
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-77-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=77
+To: userB <sip:userB@127.0.0.1:5061>;tag=77
+Call-ID: 77-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.824973
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-77-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=77
+To: userB <sip:userB@127.0.0.1:5061>;tag=77
+Call-ID: 77-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.923379
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-78-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=78
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 78-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:12.924078
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-78-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=78
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 78-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.924395
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-78-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=78
+To: userB <sip:userB@127.0.0.1:5061>;tag=78
+Call-ID: 78-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:12.924422
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-78-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=78
+To: userB <sip:userB@127.0.0.1:5061>;tag=78
+Call-ID: 78-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.022490
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-79-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=79
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 79-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.023206
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-79-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=79
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 79-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.023648
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-79-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=79
+To: userB <sip:userB@127.0.0.1:5061>;tag=79
+Call-ID: 79-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.023688
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-79-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=79
+To: userB <sip:userB@127.0.0.1:5061>;tag=79
+Call-ID: 79-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.123996
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-80-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=80
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 80-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.124696
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-80-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=80
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 80-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.125007
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-80-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=80
+To: userB <sip:userB@127.0.0.1:5061>;tag=80
+Call-ID: 80-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.125034
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-80-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=80
+To: userB <sip:userB@127.0.0.1:5061>;tag=80
+Call-ID: 80-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.223588
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-81-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=81
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 81-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.224272
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-81-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=81
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 81-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.224593
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-81-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=81
+To: userB <sip:userB@127.0.0.1:5061>;tag=81
+Call-ID: 81-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.224619
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-81-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=81
+To: userB <sip:userB@127.0.0.1:5061>;tag=81
+Call-ID: 81-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.324118
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-82-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=82
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 82-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.324815
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-82-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=82
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 82-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.325128
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-82-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=82
+To: userB <sip:userB@127.0.0.1:5061>;tag=82
+Call-ID: 82-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.325155
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-82-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=82
+To: userB <sip:userB@127.0.0.1:5061>;tag=82
+Call-ID: 82-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.423736
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-83-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=83
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 83-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.424450
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-83-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=83
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 83-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.424759
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-83-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=83
+To: userB <sip:userB@127.0.0.1:5061>;tag=83
+Call-ID: 83-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.424786
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-83-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=83
+To: userB <sip:userB@127.0.0.1:5061>;tag=83
+Call-ID: 83-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.522589
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-84-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=84
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 84-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.523258
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-84-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=84
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 84-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.523574
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-84-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=84
+To: userB <sip:userB@127.0.0.1:5061>;tag=84
+Call-ID: 84-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.523602
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-84-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=84
+To: userB <sip:userB@127.0.0.1:5061>;tag=84
+Call-ID: 84-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.624063
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-85-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=85
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 85-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.624774
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-85-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=85
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 85-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.625099
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-85-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=85
+To: userB <sip:userB@127.0.0.1:5061>;tag=85
+Call-ID: 85-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.625126
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-85-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=85
+To: userB <sip:userB@127.0.0.1:5061>;tag=85
+Call-ID: 85-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.723594
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-86-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=86
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 86-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.724273
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-86-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=86
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 86-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.724588
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-86-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=86
+To: userB <sip:userB@127.0.0.1:5061>;tag=86
+Call-ID: 86-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.724616
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-86-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=86
+To: userB <sip:userB@127.0.0.1:5061>;tag=86
+Call-ID: 86-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.823562
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-87-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=87
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 87-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.824243
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-87-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=87
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 87-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.824562
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-87-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=87
+To: userB <sip:userB@127.0.0.1:5061>;tag=87
+Call-ID: 87-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.824594
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-87-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=87
+To: userB <sip:userB@127.0.0.1:5061>;tag=87
+Call-ID: 87-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.925200
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-88-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=88
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 88-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:13.925885
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-88-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=88
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 88-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.926221
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-88-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=88
+To: userB <sip:userB@127.0.0.1:5061>;tag=88
+Call-ID: 88-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:13.926250
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-88-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=88
+To: userB <sip:userB@127.0.0.1:5061>;tag=88
+Call-ID: 88-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.024372
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-89-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=89
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 89-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:14.025051
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-89-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=89
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 89-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.025357
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-89-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=89
+To: userB <sip:userB@127.0.0.1:5061>;tag=89
+Call-ID: 89-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.025385
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-89-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=89
+To: userB <sip:userB@127.0.0.1:5061>;tag=89
+Call-ID: 89-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.124299
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-90-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=90
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 90-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:14.124989
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-90-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=90
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 90-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.125309
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-90-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=90
+To: userB <sip:userB@127.0.0.1:5061>;tag=90
+Call-ID: 90-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.125335
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-90-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=90
+To: userB <sip:userB@127.0.0.1:5061>;tag=90
+Call-ID: 90-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.223238
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-91-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=91
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 91-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:14.224045
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-91-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=91
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 91-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.224345
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-91-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=91
+To: userB <sip:userB@127.0.0.1:5061>;tag=91
+Call-ID: 91-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.224372
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-91-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=91
+To: userB <sip:userB@127.0.0.1:5061>;tag=91
+Call-ID: 91-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.322812
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-92-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=92
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 92-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:14.323516
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-92-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=92
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 92-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.323833
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-92-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=92
+To: userB <sip:userB@127.0.0.1:5061>;tag=92
+Call-ID: 92-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.323860
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-92-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=92
+To: userB <sip:userB@127.0.0.1:5061>;tag=92
+Call-ID: 92-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.424302
+UDP message sent (493 bytes):
+
+INVITE sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-93-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=93
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 93-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.0.1
+s=-
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2020-12-30 14:50:14.424978
+UDP message received [301] bytes :
+
+SIP/2.0 100 trying -- your call is important to us
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-93-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=93
+To: userB <sip:userB@127.0.0.1:5061>
+Call-ID: 93-5513@127.0.0.1
+CSeq: 1 INVITE
+Server: kamailio (5.3.2 (x86_64/linux))
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.425291
+UDP message received [283] bytes :
+
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-93-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=93
+To: userB <sip:userB@127.0.0.1:5061>;tag=93
+Call-ID: 93-5513@127.0.0.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5061;transport=UDP>
+Content-Length: 0
+
+
+----------------------------------------------- 2020-12-30 14:50:14.425317
+UDP message sent (330 bytes):
+
+ACK sip:userB@127.0.0.1:5061 SIP/2.0
+Via: SIP/2.0/UDP 127.0.0.1:5062;branch=z9hG4bK-5513-93-0
+From: userA <sip:userA@127.0.0.1:5062>;tag=93
+To: userB <sip:userB@127.0.0.1:5061>;tag=93
+Call-ID: 93-5513@127.0.0.1
+CSeq: 1 ACK
+Contact: sip:userA@127.0.0.1:5062
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
